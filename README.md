@@ -6,9 +6,7 @@ This is the challenge of the week at the **edX Front-End Web Development Bootcam
 
 # :waxing_gibbous_moon: Features
 
-Guides you through a series of interactive prompts to gather essential project information.
-
-Automatically generates a comprehensive README based on your responses, covering key sections like title, description, installation, usage, license, and more.
+Guides you through a series of interactive prompts to gather essential project information. Automatically generates a comprehensive README based on your responses, covering key sections like title, description, installation, usage, license, and more.
 
 Saves you valuable time and effort, allowing you to focus on what matters most - building your project!
 
