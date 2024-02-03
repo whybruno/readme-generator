@@ -124,3 +124,15 @@ function generateReadme(answers) {
 
   return readme;
 };
+
+// Run the application
+inquirer.prompt(prompts).then((answers) => {
+  const readmeContent = generateReadme(answers);
+  fs.writeFile('README.md', readmeContent, (err) => {
+    if (err) {
+      console.error('Error creating README:', err);
+    } else {
+      console.log('README.md generated successfully!');
+    }
+  });
+});
