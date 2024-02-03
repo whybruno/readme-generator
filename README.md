@@ -30,6 +30,19 @@ Saves you valuable time and effort, allowing you to focus on what matters most -
 
 `git clone https://github.com/whybruno/readme-generator.git`
 
+3. Install the Dependencies
+
+- Navigate to the cloned project folder.
+- Run the following command:
+
+`npm install`
+
+4. Run the Application
+
+- Run the following command:
+
+`npm start`
+
 # :new_moon: Technologies
 
 - JAVASCRIPT
