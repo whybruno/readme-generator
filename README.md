@@ -13,7 +13,7 @@ Saves you valuable time and effort, allowing you to focus on what matters most -
 
 # :first_quarter_moon: Video
 
-![screenshot 1](./assets/images/screenshot-1.png)
+![WALKTHROUGH VIDEO](./assets/videos/walkthrough-video.webm)
 
 # :waxing_crescent_moon: Installation
 
