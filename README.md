@@ -49,6 +49,14 @@ Saves you valuable time and effort, allowing you to focus on what matters most -
 - NPM.JS
 - INQUIRER.JS
 
+# :dart: Sample Files
+
+These are the files created using the application shown in the video above.
+
+[README.md](./assets/samples/README.md)
+[CONTRIBUTING.md](./assets/samples/CONTRIBUTING.md)
+[TESTING.md](./assets/samples/TESTING.md)
+
 # :copyright: Credits
 
 N/A
