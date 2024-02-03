@@ -77,3 +77,50 @@ const prompts = [
     message: 'Enter your name and last name (optional):',
   },
 ];
+
+// Generate README template based on user input
+function generateReadme(answers) {
+  const licenseInfo = licenses[answers.license];
+
+  let readme = `# ${answers.title}\n\n`;
+  if (answers.license !== 'Other') {
+    readme += `${licenseInfo.badge}\n\n`;
+  };
+  readme += `## Table of Contents\n\n`;
+  readme += `* [Installation](#installation)\n`;
+  readme += `* [Usage](#usage)\n`;
+  readme += `* [License](#license)\n`;
+  if (answers.contributing) {
+    readme += `* [Contributing](#contributing)\n`;
+  }
+  if (answers.tests) {
+    readme += `* [Tests](#tests)\n`;
+  }
+  readme += `* [Questions](#questions)\n\n`;
+  readme += `## Installation\n\n`;
+  readme += `${answers.installation}\n\n`;
+  readme += `## Usage\n\n`;
+  readme += `${answers.usage}\n\n`;
+  readme += `## License\n\n`;
+  readme += `${licenseInfo.notice}\n\n`;
+  readme += `Copyright © 2024 ${answers.myName}.\n\n`;
+  if (answers.contributing) {
+    readme += `## Contributing\n\n`;
+    readme += `See [CONTRIBUTING.md](./CONTRIBUTING.md) for details on contributing to this project.\n\n`;
+  }
+  if (answers.tests) {
+    readme += `## Tests\n\n`;
+    readme += `See [TESTING.md](./TESTING.md) for details on running tests for this project.\n\n`;
+  }
+  readme += `## Questions\n\n`;
+  if (answers.githubUsername) {
+    readme += `If you have any questions, feel free to reach out to me on GitHub: [${answers.githubUsername}](https://github.com/${answers.githubUsername}).\n\n`;
+  } else {
+    readme += `If you have any questions, feel free to reach out to me.\n\n`;
+  };
+  if (answers.emailAddress) {
+    readme += `[Ask Me](mailto:${answers.emailAddress})\n\n`;
+  };
+
+  return readme;
+};
