@@ -13,7 +13,9 @@ Saves you valuable time and effort, allowing you to focus on what matters most -
 
 # :first_quarter_moon: Video
 
-![WALKTHROUGH VIDEO](./assets/videos/walkthrough-video.webm)
+[WATCH THE VIDEO](https://drive.google.com/file/d/1eeSQEbcW7cTOD7SqIlJd_tF0tkoRjGiR/preview)
+
+[DOWLOAD THE VIDEO](./assets/videos/walkthrough-video.webm)
 
 # :waxing_crescent_moon: Installation
 
