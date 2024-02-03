@@ -22,3 +22,58 @@ const licenses = {
     notice: '',
   },
 };
+
+// Prompts for user information
+const prompts = [
+  {
+    type: 'input',
+    name: 'title',
+    message: 'What is the title of your project?',
+  },
+  {
+    type: 'input',
+    name: 'description',
+    message: 'Describe your project:',
+  },
+  {
+    type: 'input',
+    name: 'installation',
+    message: 'How to install your project:',
+  },
+  {
+    type: 'input',
+    name: 'usage',
+    message: 'Write instructions on how to use your project:',
+  },
+  {
+    type: 'list',
+    name: 'license',
+    message: 'Choose a license for your project:',
+    choices: Object.keys(licenses),
+  },
+  {
+    type: 'confirm',
+    name: 'contributing',
+    message: 'Do you want a section on contributing to your project?',
+  },
+  {
+    type: 'confirm',
+    name: 'tests',
+    message: 'Do you want a section on tests for your project?',
+  },
+  {
+    type: 'input',
+    name: 'githubUsername',
+    message: 'Enter your GitHub username (optional):',
+  },
+  {
+    type: 'input',
+    name: 'emailAddress',
+    message: 'Enter your email address (optional):',
+  },
+  {
+    type: 'input',
+    name: 'myName',
+    message: 'Enter your name and last name (optional):',
+  },
+];
