@@ -11,7 +11,7 @@ Guides you through a series of interactive prompts to gather essential project i
 Automatically generates a comprehensive README based on your responses, covering key sections like title, description, installation, usage, license, and more.
 Saves you valuable time and effort, allowing you to focus on what matters most - building your project!
 
-# :first_quarter_moon: Screenshot & Video
+# :first_quarter_moon: Video
 
 ![screenshot 1](./assets/images/screenshot-1.png)
 
@@ -32,21 +32,13 @@ Saves you valuable time and effort, allowing you to focus on what matters most -
    git clone https://github.com/whybruno/readme-generator.git
 ```
 
-3. Install the Dependencies
+3. Run the Application
 
 - Navigate to the cloned project folder.
 - Run the following command:
 
 ```sh
-   npm install
-```
-
-4. Run the Application
-
-- Run the following command:
-
-```sh
-   npm start
+   node index.js
 ```
 
 # :new_moon: Technologies
