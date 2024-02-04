@@ -53,9 +53,9 @@ Saves you valuable time and effort, allowing you to focus on what matters most -
 
 These are the files created using the application shown in the video above.
 
-[README.md](./assets/samples/README.md)
-[CONTRIBUTING.md](./assets/samples/CONTRIBUTING.md)
-[TESTING.md](./assets/samples/TESTING.md)
+* [README.md](./assets/samples/README.md)
+* [CONTRIBUTING.md](./assets/samples/CONTRIBUTING.md)
+* [TESTING.md](./assets/samples/TESTING.md)
 
 # :copyright: Credits
 
